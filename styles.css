@@ -1,0 +1,149 @@
+*{
+    font-family: 'Times New Roman';
+}
+nav{
+    margin: 20px auto;
+    padding: auto;
+    width: 800px;
+    height: 80px;
+    
+}
+
+main{
+    margin: 30px auto;
+    height: auto;
+    width: 1200px; 
+}
+main article{
+    padding-left: 150px;
+    text-align: left;
+}
+
+footer > article, main > section{
+    margin: 30px auto;
+   text-align: center;
+    height: auto;
+    width: 1200px;
+    border-radius: 10px;
+   
+    
+}
+main > section{
+    margin: 30px auto;
+    height: auto;
+    width: 1200px;
+    border-radius: 10px;
+    text-align: justify;
+   
+    
+}
+
+main > section > img{
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #0aaff2;
+    border-radius: 50%;
+}
+footer a{
+
+padding: 20px;
+font-size: 30px;
+
+}
+footer a:hover{
+    background-color: lightgray;
+    
+}
+ul{
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    margin: 2px;
+}
+nav a:hover{
+    border-bottom: 2px solid blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#0aaff2;
+   
+}
+a:visited{
+    color: #0aaff2;
+ }
+a:hover{
+    color: #03704e;
+    background-color: lightgray;
+}
+
+nav:hover{
+    color: aquamarine;
+   
+}
+
+.greetings, .description{
+    margin-top: 40px;
+    margin-top: 20px;
+}
+.sub-title{
+    width: 1200px;
+    text-align: center;
+    color: #0aaff2;
+}
+.sub-sub-title{
+    color: #03704e;
+}
+.footer-heading{
+    color: #0aaff2;
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    padding-right: 20px
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0aaff2;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: blueviolet;
+    border-radius: 2px;
+    
+}
+.proj{
+    padding: 10px 0 10px 350px;
+    padding: auto;
+    
+    
+}
+.skills{
+    padding: 10px 0px 0px 30px;
+}
+.sklls-head{
+    color: #0aaff2;
+}
+.contacts{
+    text-align: center;
+    padding-right: 100px;
+}
+.icon{
+    color: #0aaff2;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+header> nav> a:active{
+    border-bottom: 2px solid blueviolet;
+}
